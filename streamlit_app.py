@@ -1,14 +1,10 @@
 # Create the main python file
-import streamlit as st
+import streamlit
 
 
-#streamlit.title('Hello, Streamlit!!')
-
-#import streamlit as st
-
-hide_menu_style = """
-        <style>
-        MainMenu {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
+streamlit.title('Hello, Streamlit!!')
+streamlit.header('Starter')
+streamlit.text('Warm milk')
+streamlit.text('Warm coffe')
+streamlit.text('Warm waffel')
+streamlit.text('Warm drinks')
