@@ -6,6 +6,7 @@ import time
 
 streamlit.title('Hello, Streamlit!!')
 
+
 # Get some data.
 data = np.random.randn(10, 2)
 
@@ -20,5 +21,4 @@ data2 = np.random.randn(10, 2)
 
 # Append the new data to the existing chart.
 chart.add_rows(data2)
-
 
