@@ -9,3 +9,5 @@ streamlit.text('🍞 Warm coffe')
 streamlit.text('Warm waffel')
 streamlit.text('Warm drinks')
 streamlit.text('🥗 Warm vegetable')
+
+streamlit.header('🥝🍇 I built my own menu')
